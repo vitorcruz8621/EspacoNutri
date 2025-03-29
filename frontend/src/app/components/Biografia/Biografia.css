@@ -1,0 +1,11 @@
+.biografia-container {
+  background-image: url('/photos/Raphaella_03_paisagem_1500.jpg');
+  background-size: cover;
+  /*padding: 100px;  Ajuste conforme necessário */
+  color: white;
+  min-height: 150vh; /* Garante que o contêiner tenha pelo menos a altura da tela */
+  display: flex;
+  align-items: center; /* Centraliza verticalmente o conteúdo */
+  justify-content: center; /* Centraliza horizontalmente o conteúdo */
+  text-align: center; /* Centraliza o texto */
+}

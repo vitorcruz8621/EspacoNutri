@@ -1,0 +1,13 @@
+.navbar-custom {
+  background: linear-gradient(to right, #4bfa4b, rgba(34, 139, 34, 0)); /* Gradiente de verde para transparente */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+  color: black; /* Vinho */
+}
+
+.navbar-custom .nav-link:hover {
+  color: #FFFFFF; /* Branco ao passar o mouse */
+}
