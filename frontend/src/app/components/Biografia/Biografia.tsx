@@ -1,14 +1,13 @@
 "use client";
 
 import React from 'react';
+import './Biografia.css';
 
 const Biografia: React.FC = () => {
   return (
-    <div
-      className="bg-[url('/photos/Raphaela_frutas.jpg')] bg-cover bg-center text-white min-h-screen flex items-center justify-center text-center"
-    >
-      <div className="p-8 bg-black bg-opacity-50 rounded-lg">
-        <h2 className="text-4xl font-bold mb-4">Biografia da Nutricionista</h2>
+    <div className="biografia-container">
+      <div className="biografia-content">
+        <h2 className="biografia-title">Biografia da Nutricionista</h2>
         {/* 
         <div>
           <p className="text-lg">Formação e especializações...</p>
@@ -17,7 +16,7 @@ const Biografia: React.FC = () => {
       </div>
         */}
       </div>
-    </div >
+    </div>
   );
 };
 

@@ -1,11 +1,33 @@
 .biografia-container {
-  background-image: url('/photos/Raphaella_03_paisagem_1500.jpg');
-  background-size: cover;
-  /*padding: 100px;  Ajuste conforme necessário */
+  background-image: url('/photos/Raphaela_frutas_cortadas.jpg'); /* Certifique-se de que o caminho está correto */
+  background-size: contain; /* Mantém o tamanho original da imagem */
+  background-position: left center; /* Posiciona a imagem à esquerda */
+  background-repeat: no-repeat; /* Evita repetição da imagem */
+  background-color: white; /* Preenche o restante com branco */
   color: white;
-  min-height: 150vh; /* Garante que o contêiner tenha pelo menos a altura da tela */
+  min-height: 100vh;
   display: flex;
-  align-items: center; /* Centraliza verticalmente o conteúdo */
-  justify-content: center; /* Centraliza horizontalmente o conteúdo */
-  text-align: center; /* Centraliza o texto */
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Ajuste para dispositivos móveis */
+@media (max-width: 768px) {
+  .biografia-container {
+    background-size: auto 100%; /* Ajusta a altura para caber na tela */
+    background-position: center; /* Centraliza a imagem */
+  }
+}
+
+.biografia-content {
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 0.5rem;
+}
+
+.biografia-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
 }
